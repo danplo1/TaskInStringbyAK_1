@@ -15,7 +15,6 @@ public class Task8 {
         System.out.println("Podaj wybrany przez siebie wyraz: ");
 
         String word = scanner.nextLine();
-
         int length = word.length();
 
         System.out.println("Dwie ostatanie litery wyrazu podanego przez Ciebie, to: " + word.charAt(length-2) +
