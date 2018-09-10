@@ -13,6 +13,6 @@ public class Task13 {
         System.out.println("Podaj wybrany przez siebie wyraz: ");
 
         String word = s.nextLine();
-        System.out.println(" Podany wyraz: " + word.contains("tka"));
+        System.out.println(" Podany przez Ciebie wyraz: " + word.contains("tka"));
     }
 }
