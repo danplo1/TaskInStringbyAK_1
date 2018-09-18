@@ -16,7 +16,7 @@ public class Task1String {
         Pattern patt = Pattern.compile("^[0-9]{2}-[0-9]{3}$"); //wzorzec do sprawdzania kodu pocztowego
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Podaj wPodaj kod pocztowy: ");
+        System.out.println("Podaj kod pocztowy: ");
         String word = scanner.nextLine();
         Matcher match = patt.matcher(word);
 
