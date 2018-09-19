@@ -15,6 +15,7 @@ public class Task9 {
         System.out.println("Podaj jedno słowo: ");
         String word = scanner.nextLine();
 
+
         int a = word.length();
 
         int b = 2;
@@ -32,6 +33,9 @@ public class Task9 {
             System.out.println("Podane przez Ciebie słowo jest palindromem.");
         if (b == 1)
             System.out.println("Podane przez Ciebie słowo nie jest palindromem.");
+
+
+        // lub krócej =>    System.out.println(new StringBuilder(word).reverse().toString().equals(word));
     }
 }
 
