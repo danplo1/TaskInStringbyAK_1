@@ -20,7 +20,7 @@ public class Task10 {
 
         for (int i = 1; i <= 6; i++) {
 
-            number = random.nextInt(49+1);
+            number = random.nextInt((49)+1);
 
             System.out.println(number);
 
